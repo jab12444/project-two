@@ -43,13 +43,18 @@ h4 {
 img {
   display: block;
   max-width: 100%;
-  border: 1px solid #00008b;
+  border: 3px solid #00008b;
 }
 
+h1,
+h2,
+figcaption,
+nav,
 p {
   padding-bottom: 1.333333em; /*24 /18 =1.333333 */
 }
 
+/*Modular*/
 
 .nav li{
   padding-bottom: 6px;
