@@ -50,21 +50,19 @@ p {
   padding-bottom: 1.333333em; /*24 /18 =1.333333 */
 }
 
+
+.nav li{
+  padding-bottom: 6px;
+}
 .nav a {
   display: block;
-  text-align: center;
   text-decoration: none;
-  background: #eeccff;
-  color: #000000;
-  padding: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
-}
-.nav a:hover {
-  background: #e6b3ff;
-}
-.nav li {
-  padding-bottom: 0.3333333333333333em; /*6/18 =0.3333333333333333em*/
+  background: #2d8ceb;
+  color: #e6e6e6;
+  /*border:3px solid #2d8ceb; */
+  padding: 12px;
 }
 
-nav {
-  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
+.nav a:hover {
+  background: #2d8ceb;
 }
