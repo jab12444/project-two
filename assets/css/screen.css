@@ -20,18 +20,20 @@ html {
 }
 
 h1 {
-  font-size: 1.2222222222222223em; /*22/18=1.2222222222222223em*/
+  font-size: 1.333333em; /*24 /18 =1.333333 */
   padding-bottom: 1.333333em; /*24 /18 =1.333333 */
   text-align: center;
 }
 
 h2 {
+  font-size: 1.2222222222222223em; /*24/18=1.2222222222222223em*/
   font-weight: bold;
+  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
 }
 
 h3 {
   font-weight: bold;
-  padding-top: 1.333333em; /*24 /18 =1.333333 */
+  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
 }
 
 h4 {
