@@ -40,14 +40,33 @@ h4 {
   padding-bottom: 1.333333em; /*24 /18 =1.333333 */
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+nav,
+figcaption {
+  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
+}
+
 img {
   display: block;
   max-width: 100%;
   border: 3px solid #00008b;
 }
 
-p {
-  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
+/*Layout*/
+body{
+  display: grid;
+  grid-template-columns: minmax(0.625em,1fr) minmax(5ch,80ch) minmax(0.625em,1fr)
+}
+
+header,
+nav,
+main,
+footer{
+  grid-column: 2 / 3
 }
 
 /*Modular*/
