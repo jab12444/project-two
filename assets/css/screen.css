@@ -36,8 +36,11 @@ h3 {
 
 h4 {
   font-weight: bold;
-  padding-top: 0.6666666666666em; /*12/18 =0.6666666666666666em*/
   padding-bottom: 1.333333em; /*24 /18 =1.333333 */
+}
+
+p {
+  padding-bottom: 0.666667em;
 }
 
 h1,
