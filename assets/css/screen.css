@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap");
-@import url("//basehold.it/24");
+/*@import url("//basehold.it/24");
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -39,7 +39,8 @@ h3 {
 
 h4 {
   font-weight: bold;
-  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
+  padding-top: 0.666667em;
+  padding-bottom: 0.666667em;
 }
 
 p {
