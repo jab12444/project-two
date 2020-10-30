@@ -12,10 +12,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 html {
-  font-family: Merriweather, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
-  font-size: 1.125em; /*18 /16 = 1.125*/
+  font-family: 'Literata', Georgia, 'Times New Roman', Times, Roman, serif;  font-size: 1.125em; /*18 /16 = 1.125*/
   line-height: 1.333333em; /*24 /18 =1.333333 */
   padding: 1.333333em; /*24 /18 =1.333333 */
+  background: #333333;
+  color: #e6e6e6;
 }
 
 h1 {
