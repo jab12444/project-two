@@ -49,6 +49,11 @@ p {
   padding-bottom: 0.666667em;
 }
 
+nav {
+  padding-left: 1.66667em;
+  padding-right:  1.66667em;
+}
+
 h1,
 h2,
 h3,
@@ -96,7 +101,7 @@ footer{
   text-decoration: none;
   background: #14B884;
   color: #e6e6e6;
-  padding: 0.45em;
+  padding: 0.333333em;
 }
 
 .nav a:hover {
