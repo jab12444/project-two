@@ -15,14 +15,15 @@ html {
   font-family: 'Literata', Georgia, 'Times New Roman', Times, Roman, serif;  font-size: 1.125em; /*18 /16 = 1.125*/
   line-height: 1.333333em; /*24 /18 =1.333333 */
   padding: 1.333333em; /*24 /18 =1.333333 */
-  background: #333333;
-  color: #e6e6e6;
+  background: #F7DDD4;
+  color: #333333;
 }
 
 h1 {
   font-size: 1.666667em; /*30 /18 =1.666667em */
   padding-bottom: 1.333333em; /*24 /18 =1.333333 */
   text-align: center;
+  color: #093426;
 }
 
 h2 {
@@ -61,7 +62,7 @@ figcaption {
 img {
   display: block;
   max-width: 100%;
-  border: 3px solid #00008b;
+  border: 6px solid #14B884;
 }
 
 /*Layout*/
@@ -93,7 +94,7 @@ footer{
 .nav a {
   display: block;
   text-decoration: none;
-  background: #2d8ceb;
+  background: #14B884;
   color: #e6e6e6;
   padding: 0.45em;
 }
