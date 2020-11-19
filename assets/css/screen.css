@@ -103,6 +103,7 @@ ul.hobbyList {
 }
 .nav a {
   display: block;
+  text-align: center;
   text-decoration: none;
   background: #14B884;
   color: #e6e6e6;
@@ -110,5 +111,16 @@ ul.hobbyList {
 }
 
 .nav a:hover {
-  background: #2d8ceb;
+  background: #006400;
+}
+
+@media screen and (min-width: 33.333333em) { /*600 /18 =33.333333em*/
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+  .nav li {
+    padding: 0.333333em;/*6 /18 =0.333333em */
+    width: 30%
+  }
 }
