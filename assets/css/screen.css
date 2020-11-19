@@ -36,23 +36,23 @@ h2 {
 h3 {
   font-weight: bold;
   padding-bottom: 1.222222em; /*22 /18 =1.222222 */
-  padding-top: 0.666667em;
+  padding-top: 0.666667em;/*12 /18 =0.666667em */
 }
 
 h4 {
   font-weight: bold;
-  padding-top: 0.666667em;
-  padding-bottom: 0.666667em;
+  padding-top: 0.666667em;/*12 /18 =0.666667em */
+  padding-bottom: 0.666667em;/*12 /18 =0.666667em */
 }
 
 p {
-  padding-top: 0.666667em;
-  padding-bottom: 0.666667em;
+  padding-top: 0.666667em; /*12 /18 =0.666667em */
+  padding-bottom: 0.666667em;/*12 /18 =0.666667em */
 }
 
 nav {
-  padding-left: 1.66667em;
-  padding-right:  1.66667em;
+  padding-left: 1.66667em; /*30 /18 =1.666667em */
+  padding-right:  1.66667em;/*30 /18 =1.666667em */
 }
 
 h1,
@@ -99,14 +99,14 @@ ul.hobbyList {
 /*Modular*/
 
 .nav li{
-  padding-bottom: 0.666667em;
+  padding-bottom: 0.666667em;/*12 /18 =0.666667em */
 }
 .nav a {
   display: block;
   text-decoration: none;
   background: #14B884;
   color: #e6e6e6;
-  padding: 0.333333em;
+  padding: 0.333333em;/*6 /18 =0.333333em */
 }
 
 .nav a:hover {
