@@ -1,121 +1,70 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap");
-@import url("//basehold.it/24");
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jacob Brooker: Hobby </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=none" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../assets/css/screen.css" />
+  </head>
+  <body>
+    <header>
+        <h1>Jacob Brooker</h1>
+    </header>
 
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-/* stylelint-disable */
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
-/* stylelint-enable */
+        <nav id="navigation">
+          <ul class="nav">
+            <li><a href="../">Home</a></li>
+            <li><a href="../resume/">Resume</a></li>
+            <li><a href=""></a>Hobbies</li>
+          </ul>
+        </nav>
 
-/* Begin site styles below */
 
-html {
-  font-family: 'Literata', Georgia, 'Times New Roman', Times, Roman, serif;  font-size: 1.125em; /*18 /16 = 1.125*/
-  line-height: 1.333333em; /*24 /18 =1.333333 */
-  padding: 1.333333em; /*24 /18 =1.333333 */
-  background: #F7DDD4;
-  color: #333333;
-}
+    <main id="hobbies">
+      <article>
+        <h2>Hobbies </h2>
+        <p>
+        There are quite a few different activities I enjoy during my free time.
+        There is a list below talking about each activity I enjoy.
+        <p>
 
-h1 {
-  font-size: 1.666667em; /*30 /18 =1.666667em */
-  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
-  text-align: center;
-  font-weight: bold;
-  color: #093426;
-}
+      <section>
+      <ul class="hobbyList">
+        <li>Running </li>
+          <p>
+            I started running as an extra-curricuar in highschool and now do it
+            more as a hobby to help stay in shape and pass the
+          </p>
+        <li>Gaming </li>
+          <p>
+            Gaming has alwats been a fun pastime for me and I can enjoy both
+            online gaming as well as some in person board games.
+          </p>
+        <li>Ultimate Frisbee </li>
+          <p>
+            Playing Ultimate Frisbee is just a great activity if you can gather
+            enough people because even people that aren't good at frisbee have
+            still had fun playing it.
+          </p>
+        <li>Disc Golfing </li>
+          <p>
+            I wish I could go disc golfing more often but I don't currently have
+            a set of discs and have relied on friends in the past to go. However
+            it is always fun even if im not the best.
+          </p>
+        <li>Baseball </li>
+          <p>
+            I got into baseball when I was really young and playing on teams all
+            the way up into highschool before I stopped but will still
+            occasionaly play a small game with friends.
+          </p>
+      </ul>
+    </section>
+    </main>
 
-h2 {
-  font-size: 1.44444em; /*26/18=1.444444em*/
-  font-weight: bold;
-  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
-}
+    <footer id="footer">
+      <p>Site © Jacob Brooker. All rights reserved.</p>
+    </footer>
 
-h3 {
-  font-weight: bold;
-  padding-bottom: 1.222222em; /*22 /18 =1.222222 */
-  padding-top: 0.666667em;/*12 /18 =0.666667em */
-}
-
-h4 {
-  font-weight: bold;
-  padding-top: 0.666667em;/*12 /18 =0.666667em */
-  padding-bottom: 0.666667em;/*12 /18 =0.666667em */
-}
-
-nav {
-  padding-left: 1.66667em; /*30 /18 =1.666667em */
-  padding-right:  1.66667em;/*30 /18 =1.666667em */
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-nav,
-figcaption {
-  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  border: 6px solid #14B884;
-}
-
-/*Layout*/
-body{
-  display: grid;
-  grid-template-columns: minmax(0.625em,1fr) minmax(5ch,80ch) minmax(0.625em,1fr)
-}
-
-footer {
-  position; static;
-  left: 0;
-  bottom: 0;
-  width 100%;
-  text-align: center;
-}
-
-header,
-nav,
-main,
-footer{
-  grid-column: 2 / 3
-}
-
-ul.hobbyList {
-  list-style-type:  disclosure-closed;
-}
-
-/*Modular*/
-
-.nav li{
-  padding-bottom: 0.666667em;/*12 /18 =0.666667em */
-}
-.nav a {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  background: #14B884;
-  color: #e6e6e6;
-  padding: 0.333333em;/*6 /18 =0.333333em */
-}
-
-.nav a:hover {
-  background: #006400;
-}
-
-@media screen and (min-width: 33.333333em) { /*600 /18 =33.333333em*/
-  .nav {
-    display: flex;
-    justify-content: center;
-  }
-  .nav li {
-    padding: 0.333333em;/*6 /18 =0.333333em */
-    width: 30%
-  }
-}
+  </body>
+</html>
